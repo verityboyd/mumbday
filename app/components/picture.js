@@ -1,16 +1,13 @@
 import Image from "next/image";
 
-export default function Picture({ src, alt, caption }) {
+export default function Picture({ src, alt }) {
   return (
-    <section>
-      <Image
+    <div className="w-full flex justify-center">
+      <img
         src={src}
         alt={alt}
-        width={300}
-        height={300}
-        className="border-2 border-b-blue-100"
+        className="object-contain max-h-[80vh] max-w-full border rounded border-blue-100"
       />
-      <p>{caption}</p>
-    </section>
+    </div>
   );
 }
