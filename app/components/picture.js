@@ -6,7 +6,7 @@ export default function Picture({ src, alt }) {
       <img
         src={src}
         alt={alt}
-        className="object-contain max-h-[80vh] max-w-full border rounded border-blue-100"
+        className="object-contain max-h-[70vh] max-w-full rounded-lg"
       />
     </div>
   );

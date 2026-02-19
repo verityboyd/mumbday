@@ -14,7 +14,7 @@ export default function Page() {
     router.push("/slideshow");
   }
   return (
-    <main className="bg-gradient-to-t from-blue-200 to-sky-50 flex flex-col gap-2 items-center py-2">
+    <main className="h-screen bg-gradient-to-t from-blue-200 to-sky-50 flex flex-col gap-2 items-center py-5">
       <Confetti />
       <h1 className="text-3xl font-extrabold text-blue-800 m-2">
         Happy birthday, Mum!
